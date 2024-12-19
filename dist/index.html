@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="font-light bg-[url('img.png')] bg-center bg-cover bg-no-repeat h-[100vh] w-screen flex justify-center items-center">
+    <div class="w-full h-full flex justify-center items-center">
+        <form class="text-white text-center flex flex-col gap-5 border-2 rounded-2xl p-5 w-2/4 py-6"
+            style="box-shadow: 0 0 10px rgba(13, 173, 13, 0.8), 0 0 20px rgba(17, 150, 17, 0.6), 0 0 30px rgb(11, 177, 11), 0 0 40px rgba(11, 128, 11, 0.959); 
+                backdrop-filter: blur(5px); 
+                background-color: rgba(103, 206, 120, 0.5); 
+                border: 2px solid rgba(38, 170, 38, 0.8);">
+            <h1 class="text-center text-4xl uppercase">Login</h1>
+            <div class="flex flex-col gap-2 w-3/4 mx-auto">
+                <label class="text-xl text-left">Username</label>
+                <input class="outline-none px-4 py-2 rounded-2xl bg-transparent border-2 text-white" type="text" placeholder="Username">
+            </div>
+
+            <div class="flex flex-col gap-2 w-3/4 mx-auto">
+                <label class="text-xl text-left">Password</label>
+                <input class="outline-none px-4 py-2 rounded-2xl bg-transparent border-2 text-white" type="password" placeholder="Password">
+            </div>
+
+            <div class="flex gap-4 mx-auto items-center">
+                <label>
+                    <input type="checkbox">&nbsp; Remember Me
+                </label>
+                <a class="hover:underline" href="#">Forgot Your Password?</a>
+            </div>
+            <button class="bg-green-500 hover:bg-transparent hover:border-2 px-4 py-2 rounded-2xl text-xl w-2/4 mx-auto">submit</button>
+        </form>
+    </div>    
+</body>
+</html>
