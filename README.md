@@ -12,5 +12,9 @@ This project is a login page built using HTML, CSS, and JavaScript with Tailwind
 
 Clone the repository to your local machine:
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ```bash
 git clone https://github.com/YazanFAlagan/AOT-Login-Page.git
